@@ -1,0 +1,124 @@
+body  {background-color:#632728; 
+
+color:#FFFFF; 
+
+ 
+
+} 
+
+ 
+
+ 
+
+ 
+
+ 
+
+h1 {color:#ff0000; 
+
+display:inline-block; 
+
+ 
+
+ 
+
+} 
+
+ 
+
+#wrapper { 
+
+background-color:#3D3A4B; 
+
+width:70%; 
+
+margin:auto; 
+
+} 
+
+ 
+
+nav ul { 
+
+  list-style-type: none; 
+
+  margin: 0; 
+
+  padding: 0; 
+
+  overflow: hidden; 
+
+  background-color: #333; 
+
+} 
+
+ 
+
+nav ul li { 
+
+  float: left; 
+
+} 
+
+ 
+
+nav ul li a { 
+
+  display: block; 
+
+  color: white; 
+
+  text-align: center; 
+
+  padding: 14px 16px; 
+
+  text-decoration: none; 
+
+} 
+
+ 
+
+/* Change the link color to #111 (black) on hover */ 
+
+nav ul li a:hover { 
+
+  background-color: #111; 
+
+} 
+
+ 
+
+.container { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 10px 0px; 
+  grid-auto-flow: row; 
+} 
+
+ 
+
+.Box-1 { grid-area: Box-1; }
+.Box-2 { grid-area: Box-2; }
+.Box-3 { grid-area: Box-3; }
+ 
+
+
+
+ 
+
+footer { 
+
+   height: 200px;
+ 
+
+
+background-color:#4c4c4c; 
+
+ 
+
+} 
+
+ 
+
+ 
